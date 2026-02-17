@@ -1,73 +1,59 @@
-# React + TypeScript + Vite
+🛠️ Kullanılan Teknolojiler
+Proje oluşturulurken aşağıdaki modern araç zinciri (toolchain) kullanılmıştır:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Vite: Proje oluşturma ve geliştirme sunucusu.
++1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+React 18: Bileşen tabanlı arayüz kütüphanesi.
++1
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+TypeScript: Güvenli kod yazımı için JavaScript üst kümesi.
++1
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Git & GitHub: Sürüm kontrolü ve iş birliği.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+🚀 Kurulum ve Çalıştırma
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Bağımlılıkları Yükleyin: 
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Bash
+npm install [cite: 586]
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Geliştirme Sunucusunu Başlatın: 
+
+Bash
+npm run dev [cite: 591]
+Tarayıcıda Açın:
+Terminalde görünen http://localhost:5173 adresine giderek projeyi görüntüleyin.
+
+📂 Proje Yapısı
+
+src/App.tsx: Kişisel bilgilerin eklendiği ana bileşen.
+
+
+.gitignore: node_modules gibi gereksiz dosyaların Git tarafından takip edilmesini engeller.
++1
+
+
+package.json: Projenin bağımlılıklarını ve komutlarını içerir.
+
+
+Bu dosyayı oluşturduktan sonra şu komutlarla GitHub'a göndermeyi unutma: 
+
+
+git add README.md 
+
+
+git commit -m "docs: add comprehensive README" 
+
+
+git push 
+
+
+Başka bir adımda (örneğin Rubrik kontrolünde) yardımcı olmamı ister misin?
