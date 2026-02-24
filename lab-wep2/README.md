@@ -35,7 +35,7 @@ Projenin erişilebilirliği Google Lighthouse ile test edilmiş ve mükemmel sko
 - 🟢 **Best Practices:** 96
 - 🟢 **SEO:** 91
 
-![Lighthouse Raporu](lighthouse-report.png)
+![Lighthouse Raporu](image.png)
 
 ## 🛠️ Çalıştırma Talimatları
 
