@@ -8,7 +8,7 @@ function App() {
       </a>
 
       <header>
-        <h1>Ogulcan Narin - Kisisel Portfolyo</h1>
+        <div className="site-title">Oğulcan Narin</div>
         <nav aria-label="Ana navigasyon">
           <ul>
             <li><a href="#hakkimda">Hakkimda</a></li>
@@ -21,46 +21,83 @@ function App() {
       <main id="main-content">
         <section id="hakkimda">
           <h2>Hakkimda</h2>
-          <figure>
-            <img
-              src="https://via.placeholder.com/150"
-              alt="Ogulcan Narin'in vesikalik fotografi"
-            />
-            <figcaption>Ogulcan Narin</figcaption>
-          </figure>
-          <p>Merhaba! Ben Ogulcan Narin, Firat Universitesi ogrencisiyim. Web teknolojilerine ve erisilebilirlige tutkuyla bagli bir web gelistiricisiyim.</p>
-          <p>Ad Soyad: Ogulcan Narin</p>
-          <p>Ogrenci No: 230542027</p>
-          <p>Universite: Firat Universitesi</p>
 
-          <h3>Kullandigim Teknolojiler</h3>
-          <ul>
-            <li>HTML5 (Semantik & Erisilebilir)</li>
-            <li>CSS3 (Modern Tasarim)</li>
-            <li>JavaScript & TypeScript</li>
-            <li>React & Vite</li>
-          </ul>
+          <div className="about-content">
+            <figure>
+              <img
+                src="https://via.placeholder.com/200"
+                alt="Oğulcan Narin'in vesikalik fotografi"
+              />
+            </figure>
+
+            <div className="about-text">
+              <p>Merhaba! Ben Oğulcan Narin, Fırat Üniversitesi bilgisayar programcılığı bölümü vb alanında web teknolojilerine ve erişilebilirliğe tutkuyla bağlı bir web geliştiriciyim.</p>
+              <p>Ad Soyad: Oğulcan Narin</p>
+              <p>Öğrenci No: 230542027</p>
+
+              <h3 style={{ marginTop: '1.5rem', marginBottom: '1rem', fontSize: 'var(--text-lg)' }}>Kullandıgım Teknolojiler</h3>
+              <ul className="skill-tags" role="list" aria-label="Beceri etiketleri">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Git</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <section id="projeler">
           <h2>Projelerim</h2>
-          <article>
-            <h3>E-Ticaret Sitesi</h3>
-            <p>React ve TypeScript kullanarak gelistirdigim modern, hizli ve responsive bir e-ticaret uygulamasi.</p>
-            <p><strong>Teknolojiler:</strong> React, TS, Vite, TailwindCSS</p>
-          </article>
+          <div className="project-grid">
+            <article className="project-card">
+              <img
+                src="https://via.placeholder.com/400x200"
+                alt="E-Ticaret sitesi anasayfa ekran goruntusu"
+              />
+              <h3>E-Ticaret Sitesi</h3>
+              <p>React ve TypeScript ile gelistirilmis tam kapsamli bir e-ticaret uygulamasi.</p>
+              <ul className="skill-tags">
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Vite</li>
+              </ul>
+            </article>
 
-          <article>
-            <h3>Blog Uygulamasi</h3>
-            <p>Icerik yonetimi ve SEO odakli, semantik HTML kullanilarak gelistirilmis blog platformu.</p>
-            <p><strong>Teknolojiler:</strong> HTML5, CSS3, JavaScript</p>
-          </article>
+            <article className="project-card">
+              <img
+                src="https://via.placeholder.com/400x200"
+                alt="Blog uygulamasi yazi listesi gorunumu"
+              />
+              <h3>Blog Uygulamasi</h3>
+              <p>Kisisel blog platformu. Markdown destekli yazi editoru.</p>
+              <ul className="skill-tags">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+            </article>
+
+            <article className="project-card">
+              <img
+                src="https://via.placeholder.com/400x200"
+                alt="Hava durumu uygulamasi arayuzu"
+              />
+              <h3>Hava Durumu</h3>
+              <p>OpenWeather API ile anlik hava durumu bilgisi sunan PWA uygulamasi.</p>
+              <ul className="skill-tags">
+                <li>JavaScript</li>
+                <li>API</li>
+              </ul>
+            </article>
+          </div>
         </section>
 
         <section id="iletisim">
           <h2>Iletisim</h2>
           <form action="#" method="POST" noValidate>
-            <fieldset>
+            <fieldset style={{ border: 'none', padding: 0 }}>
               <legend style={{ display: 'none' }}>Iletisim Formu</legend>
 
               <div className="form-group">
@@ -124,7 +161,7 @@ function App() {
       </main>
 
       <footer>
-        <p>&copy; 2025 Ogulcan Narin. Tum haklari saklidir.</p>
+        <p>&copy; 2026 Oğulcan Narin. Tüm hakları saklıdır.</p>
       </footer>
     </>
   );
