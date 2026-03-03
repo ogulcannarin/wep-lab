@@ -8,7 +8,7 @@ function App() {
       </a>
 
       <header>
-        <h1>Ahmet Yilmaz - Kisisel Portfolyo</h1>
+        <h1>Ogulcan Narin - Kisisel Portfolyo</h1>
         <nav aria-label="Ana navigasyon">
           <ul>
             <li><a href="#hakkimda">Hakkimda</a></li>
@@ -24,13 +24,14 @@ function App() {
           <figure>
             <img
               src="https://via.placeholder.com/150"
-              alt="Ahmet Yilmaz'in vesikalik fotografi"
+              alt="Ogulcan Narin'in vesikalik fotografi"
             />
-            <figcaption>Ahmet Yilmaz</figcaption>
+            <figcaption>Ogulcan Narin</figcaption>
           </figure>
-          <p>Merhaba! Ben Ahmet Yilmaz, web teknolojilerine ve erisilebilirlige tutkuyla bagli bir web gelistiricisiyim.</p>
-          <p>Ad Soyad: Ahmet Yilmaz</p>
-          <p>Ogrenci No: 123456789</p>
+          <p>Merhaba! Ben Ogulcan Narin, Firat Universitesi ogrencisiyim. Web teknolojilerine ve erisilebilirlige tutkuyla bagli bir web gelistiricisiyim.</p>
+          <p>Ad Soyad: Ogulcan Narin</p>
+          <p>Ogrenci No: 230542027</p>
+          <p>Universite: Firat Universitesi</p>
 
           <h3>Kullandigim Teknolojiler</h3>
           <ul>
@@ -123,7 +124,7 @@ function App() {
       </main>
 
       <footer>
-        <p>&copy; 2025 Ahmet Yilmaz. Tum haklari saklidir.</p>
+        <p>&copy; 2025 Ogulcan Narin. Tum haklari saklidir.</p>
       </footer>
     </>
   );

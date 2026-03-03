@@ -5,8 +5,9 @@ Bu proje, Web Tasarimi ve Programlama dersi LAB-1 ve LAB-2 kapsaminda Vite + Rea
 Ayni zamanda Semantik HTML5 ve Erisilebilirlik (a11y) standartlarina uygun sekilde yapilandirilmistir.
 
 ## Gelistirici
-- **Ad Soyad:** Ahmet Yilmaz
-- **Ogrenci No:** 123456789
+- **Ad Soyad:** Ogulcan Narin
+- **Ogrenci No:** 230542027
+- **Okul:** Firat Universitesi
 
 ## Kullanilan Teknolojiler
 - React 18
