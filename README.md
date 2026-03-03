@@ -1,6 +1,12 @@
 # 🚀 Oğulcan Narin - Kişisel Portfolyo
 
-![Mobil](screenshots/screenshot-mobile.png)
+<div align="center">
+  <img src="screenshots/screenshot-desktop.png" width="45%" alt="Masaüstü Görünüm">
+  <img src="screenshots/screenshot-tablet.png" width="30%" alt="Tablet Görünüm">
+  <img src="screenshots/screenshot-mobile.png" width="20%" alt="Mobil Görünüm">
+</div>
+
+<br />
 
 Bu proje, **Web Tasarımı ve Programlama** dersi kapsamında gerçekleştirilen **LAB-1, LAB-2 ve LAB-3** laboratuvar föylerinin tüm isterlerini bir araya getiren modern, duyarlı (responsive) ve erişilebilir (a11y) bir kişisel web portfolyosudur.
 
